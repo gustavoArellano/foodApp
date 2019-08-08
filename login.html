@@ -4,10 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Login</title>
+        <title>Login!</title>
+        <link rel="stylesheet" href="./static/css/login.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Mogra&display=swap" rel="stylesheet">
     </head>
-
     <body>
-        <h1>Hello Login!</h1>
+        <div id="container">
+            <h6 class="vendorNav">If you are a vendor, click <a class="vendorLink" href="vendorIndex.html">here</a>!</h6>
+
+            <h5>Taco Truck Locator</h5>
+
+            <h3>Login</h3>
+
+            <form action="/home.html">
+                <input type="text" placeholder="Email">
+
+                <input type="password" placeholder="Password">
+
+                <button type="submit" class="btn btn-outline-danger btn register">Login</button>
+            </form>
+
+            <p>If you don't have an account click <a class="redirectReg" href="register.html">HERE</a>!</p>
+            
+        </div>
     </body>
 </html>

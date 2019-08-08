@@ -1,0 +1,18 @@
+body, html {
+    background: rgb(31, 31, 31)
+}
+
+#mainTitle {
+    color: whitesmoke;
+}
+
+#bodyContainer {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#bodyContainer h3 {
+    margin-top: 20px;
+    color: #DC3545;
+}

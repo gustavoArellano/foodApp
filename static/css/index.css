@@ -10,10 +10,28 @@ body, html {
     padding: 0;
 }
 
+
+
 #container {
     width: 100%;
     text-align: center;
+
 }
+
+.vendorNav {
+    font-size: 10px;
+    color: #DC3545;
+}
+
+.vendorLink {
+    text-decoration: none;
+    color: #DC3545;
+}
+
+.vendorLink:hover {
+    color: #DC3545;
+}
+
 
 #container h2 {
     font-family: 'Mogra', cursive;
@@ -26,12 +44,4 @@ body, html {
 .login, .register {
     margin: auto 20px;
     margin-top: 100px;
-}
-
-.login {
-
-}
-
-.register {
-
 }
