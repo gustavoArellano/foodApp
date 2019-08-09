@@ -6,22 +6,32 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Home</title>
         <link rel="stylesheet" href="./static/css/home.css">
+        <script src="https://kit.fontawesome.com/27fd52d4c4.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Mogra&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
 
     <body>
-        <h3 id="mainTitle">Hi, [NAME HERE]!</h3>
+        <h3 id="mainTitle">Hi, Gustavo!</h3>
 
         <div id="bodyContainer">
             <h3>Let's find a taco spot!</h3>
             <form action="#">
                 <input type="text" placeholder="Zip Code, City, State, Current Location">
-
-                <button type="submit" class="btn btn-outline-danger btn register">Search</button>
+                <button type="submit" class="btn btn-danger btn-sm register">Search 🌮</button>
             </form>
+            <h4>Or</h4>
+            <!-- THE BELOW SHOULD POP UP A MAP AND POPULATE GOOGLE MAPS WITH AROUND A 10 MILE RADIUS -->
+            <a href="#"><button type="button" class="btn btn-danger register">Around Me <i class="fas fa-map-marked-alt"></i></button></a>
         </div>
 
         <div id="footer">
-
+            <ul>
+                <a href="#"><li>Around Me?</li></a>
+                <a href="#"><li>Favorites?</li></a>
+                <a href="#"><li>Account?</li></a>
+                <a href="#"><li>Log Out</li></a>
+            </ul>
         </div>
     </body>
 </html>

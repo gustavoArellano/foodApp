@@ -1,5 +1,10 @@
 body, html {
-    background: rgb(31, 31, 31)
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tacos4.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 100%;
+    padding-bottom: 94px;
 }
 
 #mainTitle {
@@ -13,6 +18,63 @@ body, html {
 }
 
 #bodyContainer h3 {
+    font-family: 'Mogra', cursive;
     margin-top: 20px;
-    color: #DC3545;
+    color: whitesmoke;
+}
+
+#bodyContainer form {
+    margin-top: 50px;
+}
+
+#bodyContainer form input {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #DC3545;
+
+}
+
+#bodyContainer form .btn {
+    margin: auto 20px;
+}
+
+#bodyContainer h4 {
+    margin: 40px auto;
+    color: white;
+    font-weight: bolder;
+}
+
+#bodyContainer a {
+    text-decoration: none;
+}
+
+#bodyContaine a .btn .fas {
+    margin-left: 10px;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer ul {
+    padding: 0;
+    width: 100%;
+}
+
+#footer ul li {
+    text-align: center;
+    padding: auto;
+    background-color: #DC3545;
+    display: inline-block;
+    list-style: none;
+    color: whitesmoke;
+    margin: 0 -2px;
+    font-size: 15px;
+    border: whitesmoke solid 2px;
+    height: 50px;
+    width: 25%;
 }
